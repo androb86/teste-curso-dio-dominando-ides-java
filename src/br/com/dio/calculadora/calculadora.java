@@ -9,20 +9,20 @@ public class calculadora {
 		
 		int a, b;
 		
-		System.out.println("Digite o primeiro valor: ");
+		System.out.println("Digite o primeiro valor:  ");
 		a = scan.nextInt();
-		System.out.println("Digite o segundo valor: ");
+		System.out.println("Digite o segundo valor:  ");
 		b = scan.nextInt();	
 		
 		int soma = soma(a,b);
 		int subtraçao = subtraçao(a,b);
 		int multiplicaçao = multiplicaçao(a,b);
-		int divisao = divisao(a,b);
+		double divisao = divisao(a,b);
 		
 		System.out.println("soma " + soma);
 		System.out.println("sub " + subtraçao );
 		System.out.println("mult " + multiplicaçao );
-		System.out.println("div" + divisao );
+		System.out.println("div " + divisao );
 	
 	
 	
@@ -39,7 +39,7 @@ public class calculadora {
 	public static int multiplicaçao (int a, int b) {
 		return a * b;
 	}
-	public static int divisao (int a, int b) {
+	public static double divisao (double a, double b) {
 		return a / b;
 	}
 	
