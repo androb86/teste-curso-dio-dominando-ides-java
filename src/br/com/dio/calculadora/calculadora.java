@@ -16,12 +16,12 @@ public class calculadora {
 		
 		int soma = soma(a,b);
 		int subtraçao = subtracao(a,b);
-		int multiplicaçao = multiplicacao(a,b);
+		int multiplicacao = multiplicacao(a,b);
 		double divisao = divisao(a,b);
 		
 		System.out.println("soma = " + soma);
 		System.out.println("sub  = " + subtraçao );
-		System.out.println("mult = " + multiplicaçao );
+		System.out.println("mult = " + multiplicacao );
 		System.out.println("div  = " + divisao );
 	
 	
