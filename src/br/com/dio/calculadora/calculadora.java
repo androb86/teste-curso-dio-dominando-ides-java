@@ -15,8 +15,8 @@ public class calculadora {
 		b = scan.nextInt();	
 		
 		int soma = soma(a,b);
-		int subtraçao = subtraçao(a,b);
-		int multiplicaçao = multiplicaçao(a,b);
+		int subtraçao = subtracao(a,b);
+		int multiplicaçao = multiplicacao(a,b);
 		double divisao = divisao(a,b);
 		
 		System.out.println("soma = " + soma);
@@ -32,11 +32,11 @@ public class calculadora {
 		return a + b;
 	}
 
-	public static int subtraçao (int a, int b) {
+	public static int subtracao (int a, int b) {
 		return a - b;
 	}
 	
-	public static int multiplicaçao (int a, int b) {
+	public static int multiplicacao (int a, int b) {
 		return a * b;
 	}
 	public static double divisao (double a, double b) {
